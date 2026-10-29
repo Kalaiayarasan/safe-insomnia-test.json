@@ -1,0 +1,33 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2026-10-29T00:00:00.000Z",
+  "__export_source": "safe-deeplink-test",
+  "resources": [
+    {
+      "_id": "wrk_safe_test",
+      "parentId": null,
+      "modified": 1761696000000,
+      "created": 1761696000000,
+      "name": "SAFE-DEEPLINK-TEST",
+      "description": "Harmless testing collection",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_safe_test",
+      "parentId": "wrk_safe_test",
+      "modified": 1761696000000,
+      "created": 1761696000000,
+      "url": "https://example.com/",
+      "name": "Safe GET request",
+      "description": "Harmless proof request",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "_type": "request"
+    }
+  ]
+}
